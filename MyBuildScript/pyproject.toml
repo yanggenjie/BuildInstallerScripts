@@ -1,0 +1,23 @@
+[project]
+name = "BuildScript_RyzeYang"
+version = "1.0.0"
+authors = [
+  { name = "Yang GenJie", email = "yang_genjie@126.com" },
+]
+dependencies = []
+description = "安装包命令执行脚本"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://yanggenjie.cn"
+"Bug Tracker" = "https://github.com/yanggenjie"
